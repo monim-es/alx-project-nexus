@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',  # I will use it later for  logout (this is recommanded)
     'users', 
     'movies',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -153,3 +154,14 @@ SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("Bearer",),
 }
 
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header',
+            'description': 'JWT Authorization header using the Bearer scheme. Example: "Bearer <your_token>"',
+        }
+    },
+    'USE_SESSION_AUTH': False,
+}
