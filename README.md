@@ -71,3 +71,68 @@ If you're considering a similar program or just getting into backend development
 *"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie*
 
 Thanks for taking the time to read through this. Feel free to reach out if you have questions about any of the projects or want to chat about backend development!
+
+
+ #ABOUT MY PROJECT  :
+ 
+
+# 🎬 Movie Recommendation Backend
+
+A backend API built with Django for a movie recommendation app. It integrates with TMDb to fetch trending and recommended movies, allows users to save their favorites, and includes caching and full API documentation.
+
+## 📌 About the Project
+
+This project is all about building a smart, efficient, and scalable backend for a movie recommendation app. Using Django, it connects with the TMDb API to fetch real-time trending and recommended movie data. Users can sign up, log in with JWT authentication, and save their favorite movies for easy access. To make the experience fast and smooth, the backend uses Redis caching to reduce API calls and response time. The goal is to mirror a real-world production-ready backend that’s secure, fast, and easy for frontend developers to plug into—complete with Swagger API docs for a seamless integration experience.
+
+## 🚀 Overview
+
+This case study focuses on developing a robust backend for a movie recommendation application. The backend provides APIs for retrieving trending and recommended movies, user authentication, and saving user preferences. It emphasizes performance optimization and comprehensive API documentation.
+
+## 🎯 Project Goals
+
+- **API Creation:** Develop endpoints for fetching trending and recommended movies.
+- **User Management:** Implement user authentication and the ability to save favorite movies.
+- **Performance Optimization:** Enhance API performance with caching mechanisms.
+
+## 🛠 Technologies Used
+
+- **Django** – Backend framework  
+- **PostgreSQL** – Relational database  
+- **Redis** – Caching system  
+- **Swagger** – API documentation  
+- **TMDb API** – External movie data provider  
+
+## 🌟 Key Features
+
+- 🔍 **Trending & Recommended Movies** – Real-time data from TMDb  
+- 🔐 **JWT Authentication** – Secure login & user access  
+- ❤️ **Favorites** – Users can save and manage favorite movies  
+- ⚡ **Caching with Redis** – Faster responses and reduced API calls  
+- 📄 **Swagger Documentation** – All endpoints documented and accessible  
+
+## 🧰 Git Commit Workflow
+
+### Initial Setup
+- `feat: set up Django project with PostgreSQL`
+- `feat: integrate TMDb API for movie data`
+
+### Feature Development
+- `feat: implement movie recommendation API`
+- `feat: add user authentication and favorite movie storage`
+
+### Optimization
+- `perf: add Redis caching for movie data`
+
+### Documentation
+- `feat: integrate Swagger for API documentation`
+- `docs: update README with API details`
+
+
+
+## ✅ Evaluation Criteria
+
+- **Functionality:** Endpoints work as expected; authentication and favorites are functional.
+- **Code Quality:** Modular, clean code following Django and Python best practices.
+- **Performance:** Redis caching speeds up responses; optimized queries.
+- **Documentation:** Clear, useful Swagger docs; complete README setup instructions.
+
