@@ -123,16 +123,4 @@ This case study focuses on developing a robust backend for a movie recommendatio
 ### Optimization
 - `perf: add Redis caching for movie data`
 
-### Documentation
-- `feat: integrate Swagger for API documentation`
-- `docs: update README with API details`
-
-
-
-## ✅ Evaluation Criteria
-
-- **Functionality:** Endpoints work as expected; authentication and favorites are functional.
-- **Code Quality:** Modular, clean code following Django and Python best practices.
-- **Performance:** Redis caching speeds up responses; optimized queries.
-- **Documentation:** Clear, useful Swagger docs; complete README setup instructions.
 
